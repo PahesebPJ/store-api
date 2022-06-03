@@ -1,0 +1,19 @@
+@api = http://localhost:3000/products
+
+GET {{api}}
+
+###
+POST {{api}}
+Content-Type: application/json
+
+{
+  "name": "Fire TV Stick Lite con control remoto por voz Alexa, Lite, Dispositivo de streaming HD, edición 2020",
+  "description": "Fire TV Stick Lite con control remoto por voz Alexa, Lite, Dispositivo de streaming HD, edición 2020",
+  "price": 50,
+  "category": "Technology",
+  "id_discount": 1,
+  "brand": "Amazon"
+}
+
+###
+GET {{api}}/1

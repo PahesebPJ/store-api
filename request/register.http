@@ -1,0 +1,16 @@
+@api = http://localhost:3000/register
+
+
+###
+POST {{api}}
+Content-Type: application/json
+
+{
+  "username": "test1",
+  "password": "test",
+  "firstname": "test",
+  "lastname": "test",
+  "lastname": "test",
+  "address": "test",
+  "phone_number": "test"
+}
