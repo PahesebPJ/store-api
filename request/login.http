@@ -1,4 +1,4 @@
-@api = http://localhost:3000/login
+@api = http://localhost:4000/login
 
 POST {{api}}
 Content-Type: application/json
